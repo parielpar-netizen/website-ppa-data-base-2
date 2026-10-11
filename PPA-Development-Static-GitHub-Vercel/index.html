@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="PPA Development creates thoughtful websites, web applications, and digital solutions for growing businesses.">
+  <title><?= htmlspecialchars($pageTitle ?? 'PPA Development', ENT_QUOTES, 'UTF-8') ?></title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="site-header"><div class="container nav-wrap"><a class="brand" href="index.html" aria-label="PPA Development home"><span class="brand-mark">P</span><span class="brand-text">PPA <small>DEVELOPMENT</small></span></a><button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">☰</button><nav class="nav-links"><a href="index.php#home">Home</a><a href="index.php#services">Services</a><a href="index.php#about">About</a><a href="index.php#contact">Contact</a><a class="nav-login" href="login.html">Client login <span>↗</span></a></nav></div></header>
+
+<body>
+<main>
+  <section class="hero container" id="home">
+    <div class="hero-copy">
+      <span class="eyebrow"><span class="eyebrow-dot"></span> DIGITAL PARTNER FOR GROWING BUSINESSES</span>
+      <h1>Good ideas deserve <span>great digital experiences.</span></h1>
+      <p class="hero-description">We design and build thoughtful websites and digital tools that help your business move forward — with a process that stays clear from start to launch.</p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#contact">Discuss a project <span aria-hidden="true">↗</span></a>
+        <a class="button button-quiet" href="#services">Explore services <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="hero-note"><span class="note-check">✓</span> Clear communication. Practical solutions. Built around you.</div>
+    </div>
+    <div class="hero-visual" aria-label="Website design preview">
+      <div class="visual-glow"></div>
+      <div class="browser-card">
+        <div class="browser-top"><div class="window-dots"><i></i><i></i><i></i></div><span>your-next-idea.com</span><span class="browser-lock">⌁</span></div>
+        <div class="browser-content">
+          <div class="mock-nav"><span class="mock-logo"></span><span></span><span></span><span></span><b></b></div>
+          <div class="mock-hero"><div class="mock-kicker"></div><div class="mock-line long"></div><div class="mock-line medium"></div><div class="mock-line short"></div><div class="mock-button"></div></div>
+          <div class="mock-panels"><div><span class="mock-icon">✳</span><i></i><i></i></div><div><span class="mock-icon">⌘</span><i></i><i></i></div><div><span class="mock-icon">↗</span><i></i><i></i></div></div>
+        </div>
+      </div>
+      <div class="floating-note note-top"><span class="float-icon">✦</span><span><b>Thoughtful design</b><small>Made for real people</small></span></div>
+      <div class="floating-note note-bottom"><span class="status-dot"></span><span><b>Project progress</b><small>Clear at every step</small></span><span class="progress-mini">↗</span></div>
+      <div class="visual-caption">A better online presence starts here.</div>
+    </div>
+  </section>
+
+  <section class="trust-strip"><div class="container trust-inner"><span>BUILT WITH PURPOSE</span><p>Strategy <b>·</b> Design <b>·</b> Development <b>·</b> Support</p></div></section>
+
+  <section class="section container" id="services">
+    <div class="section-heading"><div><span class="eyebrow">WHAT WE DO</span><h2>Digital work, made <span>clear and useful.</span></h2></div><p>From a first website to a custom online system, we focus on what your business actually needs.</p></div>
+    <div class="service-grid">
+      <article class="service-card"><div class="service-icon icon-blue">◫</div><span class="service-number">01 / WEB</span><h3>Website Development</h3><p>Responsive, polished websites that tell your story and make it easy for visitors to take the next step.</p><a href="#contact" class="text-link">Build a website <span>↗</span></a></article>
+      <article class="service-card"><div class="service-icon icon-cyan">⌘</div><span class="service-number">02 / SYSTEMS</span><h3>Web Applications</h3><p>Practical web-based tools and dashboards designed around your workflow, clients, and goals.</p><a href="#contact" class="text-link">Plan a system <span>↗</span></a></article>
+      <article class="service-card"><div class="service-icon icon-sky">↻</div><span class="service-number">03 / CARE</span><h3>Maintenance & Support</h3><p>Keep your website updated, secure, and running smoothly as your business grows.</p><a href="#contact" class="text-link">Keep it running <span>↗</span></a></article>
+    </div>
+  </section>
+
+  <section class="about-section" id="about"><div class="container about-grid"><div class="about-art"><div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div><div class="art-center"><span>PPA</span><small>DEVELOPMENT</small></div><span class="art-tag tag-one">Design with purpose</span><span class="art-tag tag-two">Built to grow</span></div><div class="about-copy"><span class="eyebrow">A BETTER WAY TO BUILD</span><h2>Good work comes from <span>good collaboration.</span></h2><p>We believe technology should make things easier, not more complicated. That means listening first, explaining the process clearly, and building in thoughtful steps.</p><div class="principle-list"><div><span>01</span><p><b>Understand the goal</b><small>We start with your needs, not assumptions.</small></p></div><div><span>02</span><p><b>Build with intention</b><small>Every feature has a reason to be there.</small></p></div><div><span>03</span><p><b>Keep you in the loop</b><small>Clear updates from first draft to launch.</small></p></div></div></div></div></section>
+
+  <section class="contact-section container" id="contact"><div class="contact-card"><div><span class="eyebrow eyebrow-light">HAVE A PROJECT IN MIND?</span><h2>Let’s make something <span>worth coming back to.</span></h2><p>Tell us what you want to build. We’ll take it one clear step at a time.</p></div><a class="button button-white" href="login.html">Client portal <span>↗</span></a><div class="contact-decoration decoration-one"></div><div class="contact-decoration decoration-two"></div></div></section>
+</main>
+<footer class="site-footer"><div class="container footer-inner"><a class="brand footer-brand" href="index.html"><span class="brand-mark">P</span><span class="brand-text">PPA <small>DEVELOPMENT</small></span></a><p>Digital solutions, thoughtfully built.</p><span class="copyright">© <?= date('Y') ?> PPA Development.</span></div></footer><script src="assets/js/script.js"></script></body></html>
+
+</body>
+</html>

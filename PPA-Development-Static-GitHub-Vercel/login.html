@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Client Login | PPA Development</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <main class="login-page">
+    <section class="login-box">
+      <a class="brand" href="index.html"><span class="brand-mark">P</span><span class="brand-text">PPA <small>DEVELOPMENT</small></span></a>
+      <h1>Welcome back.</h1>
+      <p class="login-description">Halaman login tampilan untuk PPA Development.</p>
+      <div class="login-error" role="status">Mode demo: login belum aktif. Login sungguhan membutuhkan backend dan database.</div>
+      <form class="login-form" id="demoLogin">
+        <label for="email">Alamat email</label>
+        <input type="email" id="email" name="email" autocomplete="email" placeholder="nama@email.com" required>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" autocomplete="current-password" placeholder="Masukkan password" required>
+        <button class="login-button" type="submit">Sign in <span aria-hidden="true">→</span></button>
+      </form>
+      <a class="back-home" href="index.html">← Kembali ke halaman utama</a>
+    </section>
+  </main>
+  <script>
+    document.getElementById('demoLogin').addEventListener('submit', function (event) {
+      event.preventDefault();
+      alert('Ini masih tampilan demo. Login belum terhubung ke sistem akun.');
+    });
+  </script>
+</body>
+</html>
